@@ -1,9 +1,13 @@
-<script setup>
+<script>
 export default {
     name: "MainApp",
 }
 </script>
 
-<template></template>
+<template>
+    <div>
+
+    </div>
+</template>
 
 <style scoped></style>
