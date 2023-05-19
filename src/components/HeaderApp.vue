@@ -5,9 +5,6 @@ export default {
         return {
             menu: ["characters", "comics", "movies", "tv", "games", "collectionables", "video", "fans", "news", "shop"]
         }
-    },
-    methods: {
-
     }
 }
 </script>

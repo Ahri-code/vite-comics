@@ -16,12 +16,25 @@ export default {
   <header>
     <HeaderApp />
   </header>
+  <main>
+    <MainApp />
+  </main>
+  <footer>
+    <FooterApp />
+  </footer>
   <!-- <HelloWorld msg="Vite + Vue" /> -->
 </template>
 
 <style scoped>
 header {
   background-color: #fff;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  background: #1c1c1c;
   width: 100%;
   display: flex;
   justify-content: center;
