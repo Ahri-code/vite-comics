@@ -1,0 +1,11 @@
+<script setup>
+import HeaderApp from './components/HeaderApp.vue'
+import MainApp from './components/MainApp.vue'
+import FooterApp from './components/FooterApp.vue'
+</script>
+
+<template>
+  <!-- <HelloWorld msg="Vite + Vue" /> -->
+</template>
+
+<style scoped></style>
