@@ -2,12 +2,18 @@
 import HeaderApp from './components/HeaderApp.vue'
 import MainApp from './components/MainApp.vue'
 import FooterApp from './components/FooterApp.vue'
+import data from './assets/dc-comics.json';
 
 export default {
   components: {
     HeaderApp,
     MainApp,
     FooterApp
+  },
+  data() {
+    return {
+      myData: data
+    }
   }
 }
 </script>
