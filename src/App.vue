@@ -23,7 +23,8 @@ export default {
     <HeaderApp />
   </header>
   <main>
-    <MainApp />
+    <MainApp v-for="i in data" :link="data[i].thumb" :cost="data[i].price" :series="data[i].series"
+      :type="data[i].type" />
   </main>
   <footer>
     <FooterApp />
