@@ -5,8 +5,8 @@ export default {
 </script>
 
 <template>
-    <div id="container">
-        <div id="contained">
+    <div class="width-100per flex jc-center ai-center" id="navFooter-bg">
+        <div class="std-width height-100per flex jc-between ai-center">
             <nav>
                 <!-- DC COMICS -->
                 <div>
@@ -58,30 +58,17 @@ export default {
                     </ul>
                 </div>
             </nav>
-            <img src="../assets/dc-logo-bg.png">
+            <div id="dc-bg_logo"></div>
         </div>
     </div>
 </template>
 
 <style scoped>
-#container {
-    width: 100%;
-    height: 70vh;
+#navFooter-bg {
+    height: 60vh;
     background-image: url(../assets/footer-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-}
-
-#contained {
-    width: 70%;
-    height: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
 nav {
@@ -89,6 +76,7 @@ nav {
     display: flex;
     justify-content: start;
     align-items: start;
+    flex-wrap: wrap;
     padding: 3rem 0;
     gap: 1rem;
 }
@@ -102,7 +90,12 @@ ul {
     padding-bottom: 1rem;
 }
 
-img {
+#dc-bg_logo {
+    width: 50%;
+    height: 100%;
+    background-image: url(../assets/dc-logo-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
     overflow: hidden;
 }
 </style>

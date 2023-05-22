@@ -8,3 +8,53 @@
 img {
   display: block;
 }
+
+/* --- UTILITY --- */
+
+.std-width {
+  width: 80%;
+}
+
+.width-100per {
+  width: 100%;
+}
+
+.std-height {
+  height: 20vh;
+}
+
+.height-100per {
+  height: 100%;
+}
+
+/* FLEX */
+
+.flex {
+  display: flex;
+}
+
+.jc-center {
+  justify-content: center;
+}
+
+.jc-between {
+  justify-content: space-between;
+}
+
+.jc-evenly {
+  justify-content: space-evenly;
+}
+
+.ai-center {
+  align-items: center;
+}
+
+/* COLOR */
+
+.bg-blue {
+  background-color: #0282f9;
+}
+
+.bg-grey {
+  background-color: #303030;
+}

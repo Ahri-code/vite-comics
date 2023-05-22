@@ -15,8 +15,8 @@ export default {
 </script>
 
 <template>
-    <div id="container">
-        <div id="contained">
+    <div class="width-100per std-height bg-grey flex jc-center ai-center">
+        <div class="std-width height-100per flex jc-between ai-center">
             <button>sign-up now!</button>
             <div id="follow">
                 <h3>follow us</h3>
@@ -27,26 +27,6 @@ export default {
 </template>
 
 <style scoped>
-#container {
-    width: 100%;
-    height: 20vh;
-    background-color: #303030;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-}
-
-#contained {
-    width: 70%;
-    height: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
 button {
     border: 3px solid #0282f9;
     padding: 1rem;

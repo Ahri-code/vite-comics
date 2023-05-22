@@ -34,9 +34,15 @@ header {
 }
 
 main {
-  background: #1c1c1c;
   width: 100%;
+  background: #1c1c1c;
+  color: white;
   display: flex;
   justify-content: center;
+}
+
+footer {
+  width: 100%;
+  color: white;
 }
 </style>

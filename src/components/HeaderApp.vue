@@ -10,7 +10,7 @@ export default {
 </script>
 
 <template>
-    <div id="container">
+    <div class="std-width std-height flex jc-between ai-center">
         <img src="../assets/dc-logo.png" alt="Logo">
 
         <div id="menuContainer">
@@ -23,14 +23,6 @@ export default {
 </template>
 
 <style scoped>
-#container {
-    width: 70%;
-    height: 20vh;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
 #menuContainer {
     display: flex;
     justify-content: space-between;

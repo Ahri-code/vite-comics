@@ -5,17 +5,9 @@ export default {
 </script>
 
 <template>
-    <div id="container">
+    <div class="std-width flex ai-center">
         <h2> Content goes here </h2>
     </div>
 </template>
 
-<style scoped>
-#container {
-    width: 70%;
-    height: 20vh;
-    color: white;
-    display: flex;
-    align-items: center;
-}
-</style>
+<style scoped></style>

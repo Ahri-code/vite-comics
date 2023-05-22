@@ -36,10 +36,12 @@ export default {
 </script>
 
 <template>
-    <div id="container">
-        <div id="contained">
+    <div class="width-100per std-height bg-blue flex jc-center ai-center">
+        <div class="std-width height-100per flex jc-evenly ai-center">
             <div v-for="content in menu" class="card">
-                <img :src="getImagePath(`${content.cardImg}`)">
+                <div class="blueFooterImg">
+                    <img :src="getImagePath(`${content.cardImg}`)">
+                </div>
                 <p>{{ content.text.toUpperCase() }}</p>
             </div>
         </div>
@@ -47,33 +49,20 @@ export default {
 </template>
 
 <style scoped>
-#container {
-    width: 100%;
-    height: 20vh;
-    background-color: #0282f9;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-}
-
-#contained {
-    width: 70%;
-    height: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
 .card {
     display: flex;
     align-items: center;
 }
 
-img {
-    max-height: 50px;
-    max-width: 50px;
+.blueFooterImg {
+    height: 50px;
+    width: 50px;
     margin-right: 1rem;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
 }
 
 p {
