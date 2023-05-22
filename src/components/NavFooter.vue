@@ -87,10 +87,8 @@ export default {
 nav {
     max-height: 100%;
     display: flex;
-    flex-wrap: wrap;
     justify-content: start;
     align-items: start;
-    flex-direction: column;
     padding: 3rem 0;
     gap: 1rem;
 }
